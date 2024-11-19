@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Gerador de CAPTCHA</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Gerador de CAPTCHA</h1>
+    <div class="captcha-container">
+      <canvas id="captchaCanvas" width="200" height="80"></canvas>
+      <button id="refreshCaptcha">Gerar Outro CAPTCHA</button>
+    </div>
+    <input type="text" id="captchaInput" placeholder="Digite o CAPTCHA">
+    <button id="submitCaptcha">Verificar</button>
+    <p id="resultMessage"></p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
